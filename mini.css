@@ -1,0 +1,16 @@
+.box{
+    margin: 20px;
+}
+#home{
+    padding: 20px 300px;
+}
+#aimg img{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    height: auto;
+    /* overflow: hidden; */
+}
+#contact{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+#navbar{
+    flex-direction: column;
+}
+#home{
+    padding: 40px 300px;
+}
+/* .services{
+    margin: 100px 0px;
+} */
+.serviceimg{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.imgbtn{
+    margin: 10px 10px;
+}
+.about{
+    flex-direction: column;
+}
+.box{
+    margin: 40px;
+}

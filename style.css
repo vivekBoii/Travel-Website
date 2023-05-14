@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif; 
+}
+/* variables  */
+:root{
+    --navbar-height:59px;
+}
+/* navbar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1; 
+    opacity: 1;
+}
+/* navbar list  */
+#logo{
+    margin: 5px 45px;
+    font-size: 25px;
+    align-items: flex-start;
+}
+/* list  */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 18px;
+}
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: white;    
+    background-color: black;
+}
+/* home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 140px 350px;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    content: "";  
+    background: url('basic.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1; 
+    opacity: .7;
+}
+#home h1{
+    color: white;
+    text-align: center ;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* serviices */
+.services{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 150px 0px;
+}
+#servicehead{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.imgbtn{
+    padding: 30px 40px;
+    margin: 0px 10px;
+    background-color: #ffcd56;
+}
+.imgbtn:hover{
+    background-color: #fc952e;
+}
+/* about */
+.about{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#acontent{
+    background-color: #ffcd56;
+    padding: 30px;
+}
+#acontent h3{
+    font-size: 2rem;
+}
+#acontent p{
+    font-size: 1.1rem;
+    padding: 20px 0px;
+}
+#acontent button{
+    padding: 5px 20px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    margin: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+}
+#acontent button:hover{
+    background-color: #fc952e;
+    border: none;
+}
+/* contact  */
+#contact{
+    background-color: rgb(43,43,43);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin: 90px;
+}
+.box h3{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.links li a{
+    text-decoration: none;
+    color: white;
+}
+.links li{
+    padding: 10px;
+}
+.links li a:hover{
+    color: #fc952e;
+}
+/* class */
+.hprimary{
+    font-size: 5rem;
+}
+.serviceimg{
+    display: flex;
+}
+.btn{
+    padding: 5px 20px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    margin: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: #fc952e;
+    border: none;
+}
